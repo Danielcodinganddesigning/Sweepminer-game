@@ -60,3 +60,19 @@
     position: absolute;
     left: 23%;
 }
+
+.hidden {
+    display: none;
+}
+ 
+.transition1 {
+    width: 390px;
+    height: 844px;
+    top: 5px;
+    z-index: 1;
+    position: absolute;
+    left: 40%; /* Centering horizontally */
+}
+.hidden {
+    display: none;
+}
