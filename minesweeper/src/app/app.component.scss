@@ -1,0 +1,14 @@
+.win-page {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    flex-direction: column; /* Align children in a column */
+}
+
+.win-page .text-container {
+    text-align: center; /* Center text within the container */
+}
+
+.win-page .first-row {
+    font-size: 30px; /* Set font size to 30px for the first row */
+}

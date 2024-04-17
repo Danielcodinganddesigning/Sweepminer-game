@@ -1,20 +1,20 @@
 <div class="whole-page">
     <div class="page" id="firstLayer">
-            <img class="background" src="../../assets/background_openingscreen1.svg">
+        <img class="background" src="../../assets/background_openingscreen1.svg">
+        <div>
+            <img class="white-rec" src="../../assets/element/Rectangle_white_intro1.svg">
             <div>
-                <img class="white-rec" src="../../assets/element/Rectangle_white_intro1.svg">
-                <div>
-                    <!-- Add (click) event binding to trigger toggleNewPage() method -->
-                    <button class="start-button" (click)="toggleNewPage()">Start</button>
-                    <img    class="computer" src="../../assets/element/Computer_intro1.svg">
-                </div>
+                <!-- Assuming toggleNewPage() is defined in your Angular component -->
+                <button class="start-button" (click)="toggleNewPage()">Start</button>
+                <img class="computer" src="../../assets/element/Computer_intro1.svg">
             </div>
-
+        </div>
     </div>
 
-
+    <div class="page hidden" id="transition">
+        <img class="transition1" src="../../assets/start_transition/transition_animate.gif">
+    </div>
 </div>
 
-<div class="page" id="transition" class="hidden">
-    <img class="transition1" src="../../assets/start_transition/transition_animate.gif">
-</div>
+
+

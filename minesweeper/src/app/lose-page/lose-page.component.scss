@@ -1,0 +1,53 @@
+
+
+.lose{
+    position: absolute;
+    left: 40%; /* Centering horizontally */
+}
+.red-circle {
+    width: 385px;
+    height: 842px;
+    top: -23%;
+    z-index: 1;
+    position: absolute;
+    z-index: 1;
+
+}
+.text-container {
+    position: relative;
+    font-family: pixelify sans;
+    text-align: center;
+    margin-top: 73%;
+    top: calc(50% - 422px);
+    width: 390px;
+    z-index: 2; /* Ensure text is above the circle */
+    font-size: 25px;
+    color: white;
+}
+
+
+.second-row {
+margin: 0%;
+}
+
+.first-row {
+font-size: 30px;
+margin: 0%;
+}
+
+.bank {
+    width: 175px;
+    height: 175px;
+    position: absolute; /* Position the bank image absolutely */
+    z-index: 3; /* Ensure the bank image is above the circle */
+    left: 27%;
+}
+
+.emoji {
+    width: 100px;
+    height: 100px;
+    position: absolute; /* Position the bank image absolutely */
+    z-index: 3; /* Ensure the bank image is above the circle */
+    left: 60%;
+    margin-top: 30%;
+}
